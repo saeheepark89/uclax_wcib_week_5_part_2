@@ -12,15 +12,50 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
-    <h1>Week 5, Part 2</h1>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #E07A5F;">
+        <a class="navbar-brand" href="#">
+          <img src="/images/brand.png" width="30" height="30" class="d-inline-block align-center" alt="brandlogo">
+          Storytime
+        </a>
+    </nav>
 
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+
+
+        <h1>Story Generator</h1>
+
+        <div>
+            <label for="customname">A type of animal:</label>
+            <input id="customname" type="text" placeholder="(i.e. Lion)">
+        </div>
+        <div>
+            <label for="customname2">Another animal:</label>
+            <input id="customname2" type="text" placeholder="(i.e. Boar)">
+        </div>
+
+          <div>
+            <label for="us">US</label><input id="us" type="radio" name="ukuskv" value="us" checked>
+            <label for="uk">UK</label><input id="uk" type="radio" name="ukuskv" value="uk">
+            <label for="kv">Universe</label><input id="kv"type="radio" name=ukuskv value="kv">
+          </div>
+          <div>
+            <button class="randomize">Tell a Story</button>
+          </div>
+          <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+          <p class="story"></p>
+    </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js"></script>
 	</body>
-
+</main>
 </html>

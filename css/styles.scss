@@ -1,0 +1,43 @@
+body {
+  padding-top: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+button.randomize {
+  background-color: #E07A5F;
+  color: white;
+  border-color: #E07A5F;
+  padding: 5px;
+}
+button.randomize:hover {
+  background-color:inherit;
+  color: #E07A5F;
+  border-color: #E07A5F;
+  padding: 5px;
+}
+
+p {
+    background: #F4F1DE;
+    color: #3D405B;
+    padding: 10px;
+    visibility: hidden;
+}
